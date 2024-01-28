@@ -1,0 +1,14 @@
+body{
+   background-color: #EBEDF2;
+}
+
+main {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.course-card {
+    max-width: 19rem;
+    grid-column: auto/span 2;
+}
