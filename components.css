@@ -7,6 +7,7 @@
     margin-bottom: 20%;
     width: 100%;
     align-self: flex-start;
+    
 }
 
 h3 {
@@ -24,6 +25,19 @@ p{
     width: 100%;
     align-self: flex-start;
     margin-bottom: 10%;
+}
+
+h1{
+    font-family:"Cairo";
+    font-weight: 600;
+    margin-left: 18%;
+    font-size: 3rem;
+}
+
+.toggle p{
+    font-family:"Cairo";
+    font-weight: 400;
+    margin: 15px;
 }
 
 /*Card style*/
@@ -67,4 +81,10 @@ p{
   font-family: "Cairo";
   padding: 4px;
   color: #FFF;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
 }
