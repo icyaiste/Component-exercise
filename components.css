@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap');
 
-/* Text styles
-*/
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: auto;
+/* Text styles*/
+
+.course-card__title {
+    font-family:"Cairo";
+    margin-bottom: 20%;
+    width: 100%;
+    align-self: flex-start;
 }
+
+h3 {
+    margin: 5% 0 0 10%;
+    font-weight: 600;
+}
+
+p{
+    margin: 3% 0 0 10%;
+    font-weight: 400;
+}
+
+.longer_title{
+    font-family:"Cairo";
+    width: 100%;
+    align-self: flex-start;
+    margin-bottom: 10%;
+}
+
+/*Card style*/
 
 .course-card {
     display: flex;
@@ -23,10 +43,7 @@ body {
     max-height: 150px;
 }
 
-.course-card__title {
-    font-family:"Cairo";
-    font-style:bold;
-}
+/* Buttons*/
 
 .buttons{
     display: flex;
@@ -43,14 +60,11 @@ body {
     padding: 4px;
 }
 
-h3 {
-    align-self: flex-start;
-    margin: 5% 0 0 10%;
-    font-weight: 600;
-}
-
-p{
-    align-self: flex-start;
-    margin: 3% 0 10% 10%;
-    font-weight: 400;
+.dark_button{
+  background-color: #141619CC;
+  border-radius: 5px;
+  border: #FFF solid 1px;
+  font-family: "Cairo";
+  padding: 4px;
+  color: #FFF;
 }
