@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Text styles
 */
 body {
@@ -22,3 +23,95 @@ main {
     font-size: 16px;
     font-weight: bolder;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap');
+
+/* Text styles*/
+
+.course-card__title {
+    font-family:"Cairo";
+    margin-bottom: 20%;
+    width: 100%;
+    align-self: flex-start;
+    
+}
+
+h3 {
+    margin: 5% 0 0 10%;
+    font-weight: 600;
+}
+
+p{
+    margin: 3% 0 0 10%;
+    font-weight: 400;
+}
+
+.longer_title{
+    font-family:"Cairo";
+    width: 100%;
+    align-self: flex-start;
+    margin-bottom: 10%;
+}
+
+h1{
+    font-family:"Cairo";
+    font-weight: 600;
+    margin-left: 18%;
+    font-size: 3rem;
+}
+
+.toggle p{
+    font-family:"Cairo";
+    font-weight: 400;
+    margin: 15px;
+}
+
+/*Card style*/
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.course-card__img {
+    border: solid #666A73 150px;
+    border-radius: 10px 10px 0 0;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+/* Buttons*/
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.course-card__button{
+    width: 250px;
+    background-color: rgb(229, 237, 237);
+    border: #FFF solid 1px;
+    border-radius: 5px;
+    font-family: "Cairo";
+    padding: 4px;
+}
+
+.dark_button{
+  background-color: #141619CC;
+  border-radius: 5px;
+  border: #FFF solid 1px;
+  font-family: "Cairo";
+  padding: 4px;
+  color: #FFF;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+}
+>>>>>>> 8e5856b83e811db1849b043fdda5ec8c941de47a
